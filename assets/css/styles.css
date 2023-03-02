@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #cfc6c6;
+}
+body{
+    background-repeat: repeat;    
+    background-position: top center;
+    background-size: auto;
+    background-image: url(./img/background.png);
+    color: #cfc6c6;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+/* Header */
+.content{
+    width: 1160px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0 40px;
+}
+.header .logo{
+    width: 44%;
+}
+.header .logo-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all linear 0.1s;
+    cursor: pointer;
+}
+.nav-list .nav-item:hover a,
+.header .logo-title:hover{
+    color: #e73a61;
+    font-style: normal;
+}
+.header .desc{
+    font-size: 1.6rem;
+    margin-top: -15px;
+}
+.nav{
+    width: 66%;
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.nav-list .nav-item{
+    margin-right: 18px;
+    white-space: nowrap;
+}
+
+.nav-list .nav-item a{
+    font-weight: 500;
+    transition: all linear 0.1s;
+}
+
+.nav-item i{
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    background: #637e99;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+.nav .icon:first-child{
+    margin-right: 10px;
+}
+.nav .icon + .icon{
+    margin-right: 10px;
+}
+
+
+/* Content */
+.body-content img{
+    display: block;
+    float: right;
+    height: 40vh;
+    margin-top: 20px;
+}
+.content-block{
+    margin-top: 340px;
+}
+.content-block .list-img{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-block .img-item{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    flex: 1;
+    object-fit: cover;
+}
+
