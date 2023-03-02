@@ -24,7 +24,7 @@ ul{
 
 /* Header */
 .content{
-    width: 1160px;
+    width: 1420px;
     max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
@@ -33,25 +33,27 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 0 40px;
+    padding: 130px 0 40px;
+    /* flex-wrap: wrap; */
 }
 .header .logo{
     width: 44%;
 }
 .header .logo-title{
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     font-weight: 600;
     color: #ffffff;
     transition: all linear 0.1s;
     cursor: pointer;
 }
+
 .nav-list .nav-item:hover a,
 .header .logo-title:hover{
     color: #e73a61;
     font-style: normal;
 }
 .header .desc{
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-top: -15px;
 }
 .nav{
@@ -62,11 +64,11 @@ ul{
 .nav-list{
     display: flex;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
 }
 .nav-list .nav-item{
-    margin-right: 18px;
+    margin-right: 22px;
     white-space: nowrap;
 }
 
@@ -76,13 +78,19 @@ ul{
 }
 
 .nav-item i{
-    width: 27px;
-    height: 27px;
+    width: 36px;
+    height: 36px;
     text-align: center;
-    line-height: 27px;
-    background: #637e99;
-    font-size: 1.3rem;
+    line-height: 36px;    
+    background: #18242f;
+    font-size: 1.8rem;
     border-radius: 50%;
+    color:#999999;;
+    transition: all linear 0.1s;
+}
+.icon:hover i{
+    background-color: #e73a61;
+    color: #ffffff;
 }
 .nav .icon:first-child{
     margin-right: 10px;
@@ -96,11 +104,11 @@ ul{
 .body-content img{
     display: block;
     float: right;
-    height: 40vh;
+    height: 362px;
     margin-top: 20px;
 }
 .content-block{
-    margin-top: 340px;
+    margin-top: 420px;
 }
 .content-block .list-img{
     width: 100%;
@@ -109,8 +117,8 @@ ul{
     flex-wrap: wrap;
 }
 .content-block .img-item{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 220px;
     border-radius: 10px;
     flex: 1;
     object-fit: cover;
